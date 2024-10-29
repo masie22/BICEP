@@ -1,0 +1,20 @@
+{    
+  "agwConfig": [        
+    {            
+      "appName": "centralus-dev-test",            
+      "protocol": "https",            
+      "priority": 10,            
+      "hostname":"dev.marketing.ca",            
+      "backendPort": 443,            
+      "keyvault_gw_cert": "uat-marketing-ca"        
+    },        
+    {            
+      "appName": "centralus-uat-test",            
+      "protocol": "http",            
+      "priority": 30,            
+      "hostname":"uat.marketing.ca",            
+      "backendPort": 80,            
+      "keyvault_gw_cert": ""        
+    }    
+  ]
+}
